@@ -1,7 +1,7 @@
 # Ornithopter
----
 
-MVP:
+
+### MVP:
 
 1. progressive enhancement from day 1
 2. sub 500ms to page render
