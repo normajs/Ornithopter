@@ -1,0 +1,12 @@
+{
+  "name": "norma-criticalCSS",
+  "version": "0.0.1",
+  "description": "critical-css package for the Norma build tool",
+  "main": "package.coffee",
+  "keywords": [
+    "norma"
+  ],
+  "dependencies": {
+    "critical": "^0.6.0"
+  }
+}

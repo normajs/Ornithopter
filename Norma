@@ -1,0 +1,32 @@
+name: "ornithopter"
+
+tasks:
+
+  link:
+    endpoint: "NewSpring/norma-link"
+    "vendor":
+      root: "../../junction/stylesheets/"
+      junction: "lib"
+
+  markup:
+    src: "_source/templates/**/*"
+    dest: "static/"
+    minify: true
+
+  sass:
+    src: "_source/stylesheets/**/*"
+    dest: "static"
+    minify: true
+
+  javascript:
+    src: "_source/scripts/**/*"
+    dest: "static"
+    minify: true
+
+  criticalCSS:
+    src: "static/**/*"
+    dest: "static"
+    inline: true
+    css: [
+      "static/master.css"
+    ]

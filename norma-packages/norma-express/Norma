@@ -1,0 +1,4 @@
+name: "norma-express"
+type: "package"
+main: "package.coffee"
+tasks: {}

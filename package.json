@@ -1,0 +1,18 @@
+{
+  "name": "ornithopter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.5.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "norma-gzip": "newspring/norma-gzip",
+    "normajs": "^1.7.8"
+  }
+}

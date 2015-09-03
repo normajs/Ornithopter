@@ -1,0 +1,9 @@
+{
+  "name": "norma-express",
+  "version": "0.0.1",
+  "description": "express package for the Norma build tool",
+  "main": "package.coffee",
+  "keywords": [
+    "norma"
+  ]
+}
