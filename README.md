@@ -16,8 +16,6 @@
 > This project is targeted for the average client project. A simple site of pages with minimal interactivity should be easily handled by ornithopter. This is not for big time application suites.
 
 
----
-
 ## Features
 
 
