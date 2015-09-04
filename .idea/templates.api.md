@@ -4,7 +4,7 @@
 ```html
 <template name="contact-form" class="contact">
 
-  {{ornithopter.head}}
+  {{#ornithopter.head}}
     <meta name="contact-form" content="{{variable}}" />
   {{/ornithopter.head}}
 

@@ -29,7 +29,7 @@ Each package can expose its own data type for editing if needed. These **should*
 
 #### Setters
 
-A small set of layout setters will be exposed via the Ornithopter object. For example `{{ornithopter.head}}{{/ornithopter.head}}`. These will let a template use its data model to set page wide attributes. Conflict merging could get tricky here?
+A small set of layout setters will be exposed via the Ornithopter object. For example `{{#ornithopter.head}}{{/ornithopter.head}}`. These will let a template use its data model to set page wide attributes. Conflict merging could get tricky here?
 
 
 #### Push State
