@@ -18,9 +18,8 @@
 
 ---
 
-## Thoughts on the build process
+## Features
 
-> I like meteor's build process but I think ornithopter should be more opinionated and expose traditional node modules.
 
 #### Client vs Server
 
