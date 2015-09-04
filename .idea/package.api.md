@@ -53,11 +53,11 @@ Package Sample
 #### Compiled (pre final build)
 
 ```css
-.__package-sample.foo {
+.__package-sample > .foo {
   color: blue;
 }
 
-.__package-sample.bar {
+.__package-sample > .bar {
   color: orange;
 }
 ```
