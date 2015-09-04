@@ -1,6 +1,13 @@
 # Ornithopter
 
 
+### Raison D'Etre
+
+Ornithopter is a full stack framework targeted for clients / agencies who deal with high turnover of low interactive sites. It was created out of a desire to build the fastest, farthest reaching stack and improve upon the libraries of VenKee Enterprises. It is built with the principals of progressive enhancement as amazingly outlined and developed by the filament group.
+
+Ornithopter should be easily used by non technical people to configure and control a lightning fast site.
+
+
 ### MVP:
 
 - [ ] progressively enhanced
@@ -11,9 +18,6 @@
 - [ ] one click deploy to modern web platforms
 - [ ] server side and client side rendered
 - [ ] robust package system
-
-
-> This project is targeted for the average client project. A simple site of pages with minimal interactivity should be easily handled by ornithopter. This is not for big time application suites.
 
 
 ## Features

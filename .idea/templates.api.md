@@ -1,9 +1,12 @@
+
+# Sample Template
+
 ```html
 <template name="contact-form" class="contact">
 
-  {{head.set}}
+  {{ornithopter.head}}
     <meta name="contact-form" content="{{variable}}" />
-  {{/head.set}}
+  {{/ornithopter.head}}
 
   <form class="push-double@lap-and-up constrain-copy">
     <fieldset>
@@ -38,3 +41,9 @@
 
 </template>
 ```
+
+### Behind the scenes
+
+On compilation this template will be compiled into a javascript node tree. The data sets defined (`title`, `inputs`, `cta`) will be prefixed with the template name (eg. `contact-form-title`) and a lookup in the DB of the page will be done to find the content. On the server, the page will render out and include this template with data in minified markup form (if selected). Each template must have a unique name.
+
+The `{{ornithopter.head}}{{/ornithopter.head}}` tags allow this template to add to the `<head></head>` of the document. Any inline css in a `<style></style>` tag will be stripped and moved to an async loaded css file that is namespaced to this block. Any js will be stripped and moved to an async loaded script as well.
