@@ -59,6 +59,21 @@ Ornithopter will maintain an active audit of the size and speed of the site as i
 Since Ornithopter is built on express, middleware support for external services will be easy to implement and turn on.
 
 
+#### SSL always
+
+Ornithopter will force SSL, you better have your certs in order.
+
+
+#### Kubernetes ready, containers first
+
+The pieces of Ornithopter, DB, Application, Workers will all run in containers and be ready for Guild once it is ready. It will feature thin containers that can stack tightly on a single server to keep costs low.
+
+
+#### Open Source
+
+Its the only way to build.
+
+
 #### Deployments / Production
 
 Ornithopter will be run by Norma. Like wordpress, it will allow for admins to search and install plugins during the editing process. Norma will handle the installation and registration of the package and reload the page accordingly. This will be a future development.
