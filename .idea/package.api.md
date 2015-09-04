@@ -39,6 +39,11 @@ Package Sample
 #### Raw
 
 ```css
+/* dist/client/stylesheets/section.css */
+section {
+  background-color: #eee;
+}
+
 /* dist/client/stylesheets/foo.css */
 .foo {
   color: blue;
@@ -53,6 +58,11 @@ Package Sample
 #### Compiled (pre final build)
 
 ```css
+
+.__package-sample {
+  background-color: #eee;
+}
+
 .__package-sample > .foo {
   color: blue;
 }
