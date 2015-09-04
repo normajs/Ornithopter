@@ -1,7 +1,7 @@
 
 # Sample Template
 
-```html
+```handlebars
 <template name="contact-form" class="contact">
 
   {{ornithopter.head}}
