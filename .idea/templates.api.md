@@ -1,5 +1,5 @@
-
-# Sample Template
+Sample Template
+===============
 
 ```handlebars
 <template name="contact-form" class="contact">
