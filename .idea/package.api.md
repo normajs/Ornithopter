@@ -4,7 +4,7 @@ Package Sample
 #### Raw
 
 ```html
-<template name="package-sample">
+<template name="package-sample" class="test">
 
   <p class="foo">
     Blue text
@@ -21,7 +21,7 @@ Package Sample
 #### Compiled (pre final build)
 
 ```html
-<section data-ornithopter-template="package-sample">
+<section class="__package-sample test">
 
   <p class="foo">
     Blue text
