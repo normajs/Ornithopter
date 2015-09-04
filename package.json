@@ -9,8 +9,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "assert": "^1.3.0",
     "compression": "^1.5.2",
     "express": "^4.13.3",
+    "mongodb": "^2.0.42",
     "morgan": "^1.6.1",
     "norma-gzip": "newspring/norma-gzip",
     "normajs": "^1.7.8"
