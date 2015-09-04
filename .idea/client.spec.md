@@ -22,4 +22,4 @@ Each package can package any extra css needed for the template. This css will be
 
 #### JS files (advanced functionality)
 
-All JS should be considered non-critical for the end-user. Admin support will be required a javascript enabled browser but end-users cannot gurantee it. As much as possible, custom template actions should be bundled into a junction plugins.
+All JS should be considered non-critical for the end-user. Admin support will be required a javascript enabled browser but end-users cannot gurantee it. As much as possible, custom template actions should be bundled into a junction plugins. Each JS file per package joined and the group of files will be wrapped in a immediately invoked function to protect the global namespace. If a template exposes javascript functionality (like a model or player), the package must expose the API to Junction.
