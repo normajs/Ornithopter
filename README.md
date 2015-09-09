@@ -10,7 +10,7 @@ Ornithopter should be easily used by non technical people to configure and contr
 ### MVP:
 
 -	[ ] progressively enhanced
--	[ ] sub 500ms to page render
+-	[ ] sub 1000ms to page render on mobile
 -	[ ] front end editing built in
 -	[ ] highly themeable and customizable
 -	[ ] built with full suite of Venport projects
